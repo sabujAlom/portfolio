@@ -72,9 +72,9 @@ export default function Loading() {
             </defs>
           </svg>
 
-          {/* The N */}
+          {/* The S */}
           <span className="relative text-5xl font-black gradient-text tracking-tight animate-letter-in">
-            N
+            S
           </span>
         </div>
 
