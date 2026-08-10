@@ -72,8 +72,7 @@ export default function Hero() {
             </div>
 
             <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-lg">
-              A passionate developer from Bangladesh, building beautiful and
-              functional web experiences. Fan of clean code and great design.
+             A passionate developer from Bangladesh, constantly learning, building, and creating modern web experiences with clean code and thoughtful design.
             </p>
 
             {/* CTA buttons */}
@@ -133,8 +132,8 @@ export default function Hero() {
               <Image
                 width={450}
                 height={450}
-                src="/profile.png"
-                alt="Neyamul Islam"
+                src="/profilePic.png"
+                alt="Sabuj Alom"
                 className="w-70 h-70 md:w-[450px] md:h-[450px] rounded-full object-cover border-4 border-purple-700/50 relative z-10"
                 priority
               />
