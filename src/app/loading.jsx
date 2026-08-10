@@ -80,7 +80,7 @@ export default function Loading() {
 
         {/* Name + tagline */}
         <div className="text-center animate-fade-up">
-          <p className="text-white text-sm font-semibold tracking-[0.3em]">NEYAMUL</p>
+          <p className="text-white text-sm font-semibold tracking-[0.3em]">SABUJ</p>
           <p className="text-gray-600 text-[10px] tracking-[0.2em] mt-1">LOADING EXPERIENCE</p>
         </div>
       </div>

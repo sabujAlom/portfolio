@@ -17,7 +17,7 @@ export default function Contact() {
     e.preventDefault()
     const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`)
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)
-    window.open(`mailto:neyamulislam946@gmail.com?subject=${subject}&body=${body}`)
+    window.open(`mailto:sabujalom18@gmail.com?subject=${subject}&body=${body}`)
     setSent(true)
     setTimeout(() => setSent(false), 3000)
   }
@@ -47,22 +47,22 @@ export default function Contact() {
               <ContactItem
                 icon={<FaLinkedin />}
                 label="LinkedIn"
-                value="linkedin.com/in/neya-mul"
-                href="https://www.linkedin.com/in/neya-mul/"
+                value="linkedin.com/in/sabujalom18"
+                href="https://www.linkedin.com/in/sabujalom18"
               />
 
               <ContactItem
                 icon={<FaEnvelope />}
                 label="Email"
-                value="neyamulislam946@gmail.com"
-                href="mailto:neyamulislam946@gmail.com"
+                value="sabujalom18@gmail.com"
+                href="mailto:sabujalom18@gmail.com"
               />
 
               <ContactItem
                 icon={<FaPhoneAlt />}
                 label="Phone"
-                value="+880 1874062550"
-                href="tel:+8801874062550"
+                value="+880 1728195045"
+                href="tel:+8801728195045"
               />
 
               <ContactItem

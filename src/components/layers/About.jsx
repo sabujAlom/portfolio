@@ -35,7 +35,7 @@ export default function About() {
                 <p className="text-gray-400 text-sm italic leading-relaxed">
                   "Beginner to coding, but passionate about building great things on the web."
                 </p>
-                <p className="text-purple-400 text-sm mt-2 font-semibold">— Neyamul Islam</p>
+                <p className="text-purple-400 text-sm mt-2 font-semibold">— Sabuj Alom</p>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function About() {
           {/* Right - text content */}
           <div className="reveal">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Hi! I'm <span className="text-purple-400">Neyamul Islam</span>
+              Hi! I'm <span className="text-purple-400">Sabuj Alom</span>
             </h3>
             <p className="text-gray-400 leading-relaxed mb-4">
               I'm a MERN Stack developer from Bangladesh with a passion for building
@@ -62,7 +62,7 @@ export default function About() {
 
             {/* Info list */}
             <div className="space-y-3">
-              <InfoRow label="Name" value="Neyamul Islam" />
+              <InfoRow label="Name" value="Sabuj Alom" />
               <InfoRow
                 label="Location"
                 value={
