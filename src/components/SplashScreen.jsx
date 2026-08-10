@@ -53,13 +53,13 @@ export default function SplashScreen({ onFinished }) {
         lineHeight: 1,
         marginBottom: "16px"
       }}>
-        Neyamul{" "}
+        Sabuj{" "}
         <span style={{
           background: "linear-gradient(135deg, #7c3aed, #a855f7)",
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent"
         }}>
-          Islam
+          Alom
         </span>
       </h1>
       <p style={{
