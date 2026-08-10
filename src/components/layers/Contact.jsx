@@ -1,47 +1,64 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import { FaLinkedin, FaPhoneAlt, FaWhatsapp, FaEnvelope, FaCheckCircle } from 'react-icons/fa'
+import { useState } from "react";
+import {
+  FaLinkedin,
+  FaPhoneAlt,
+  FaWhatsapp,
+  FaEnvelope,
+  FaCheckCircle,
+} from "react-icons/fa";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' })
-  const [sent, setSent] = useState(false)
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [sent, setSent] = useState(false);
 
   // Handle form input changes
   function handleChange(e) {
-    setFormData({ ...formData, [e.target.name]: e.target.value })
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   }
 
   // Handle form submit - opens email client with pre-filled data
   function handleSubmit(e) {
-    e.preventDefault()
-    const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`)
-    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)
-    window.open(`mailto:sabujalom18@gmail.com?subject=${subject}&body=${body}`)
-    setSent(true)
-    setTimeout(() => setSent(false), 3000)
+    e.preventDefault();
+    const subject = encodeURIComponent(
+      `Portfolio Contact from ${formData.name}`,
+    );
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
+    );
+    window.open(`mailto:sabujalom18@gmail.com?subject=${subject}&body=${body}`);
+    setSent(true);
+    setTimeout(() => setSent(false), 3000);
   }
 
   return (
     <section id="contact" className="py-24">
       <div className="max-w-6xl mx-auto px-6">
-
         {/* Section heading */}
         <div className="text-center mb-16 reveal">
-          <p className="text-purple-400 text-sm tracking-widest uppercase mb-3">Let's Talk</p>
+          <p className="text-purple-400 text-sm tracking-widest uppercase mb-3">
+            Let's Talk
+          </p>
           <h2 className="text-4xl md:text-5xl font-black text-white">
             Get In <span className="gradient-text">Touch</span>
           </h2>
           <p className="text-gray-500 mt-4 max-w-lg mx-auto">
-            Have a project in mind or want to collaborate? I'd love to hear from you!
+            Have a project in mind or want to collaborate? I'd love to hear from
+            you!
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
-
           {/* Left - contact info */}
           <div className="reveal">
-            <h3 className="text-xl font-bold text-white mb-6">Contact Information</h3>
+            <h3 className="text-xl font-bold text-white mb-6">
+              Contact Information
+            </h3>
 
             <div className="space-y-4 mb-8">
               <ContactItem
@@ -68,16 +85,21 @@ export default function Contact() {
               <ContactItem
                 icon={<FaWhatsapp />}
                 label="WhatsApp"
-                value="+880 1874062550"
-                href="https://wa.me/8801874062550"
+                target="_blank"
+                value="+880 1728195045"
+                href="https://wa.me/8801728195045"
               />
             </div>
             {/* Availability badge */}
             <div className="flex items-center gap-3 p-4 bg-green-900/20 border border-green-700/30 rounded-2xl">
               <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse" />
               <div>
-                <p className="text-green-400 font-semibold text-sm">Available for Work</p>
-                <p className="text-gray-500 text-xs">Open to freelance & full-time opportunities</p>
+                <p className="text-green-400 font-semibold text-sm">
+                  Available for Work
+                </p>
+                <p className="text-gray-500 text-xs">
+                  Open to freelance & full-time opportunities
+                </p>
               </div>
             </div>
           </div>
@@ -86,7 +108,9 @@ export default function Contact() {
           <div className="reveal">
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label className="text-gray-400 text-sm mb-2 block">Your Name</label>
+                <label className="text-gray-400 text-sm mb-2 block">
+                  Your Name
+                </label>
                 <input
                   type="text"
                   name="name"
@@ -99,7 +123,9 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="text-gray-400 text-sm mb-2 block">Email Address</label>
+                <label className="text-gray-400 text-sm mb-2 block">
+                  Email Address
+                </label>
                 <input
                   type="email"
                   name="email"
@@ -112,7 +138,9 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="text-gray-400 text-sm mb-2 block">Message</label>
+                <label className="text-gray-400 text-sm mb-2 block">
+                  Message
+                </label>
                 <textarea
                   name="message"
                   value={formData.message}
@@ -133,16 +161,15 @@ export default function Contact() {
                     <FaCheckCircle /> Message Sent!
                   </>
                 ) : (
-                  'Send Message →'
+                  "Send Message →"
                 )}
               </button>
             </form>
           </div>
-
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 // Contact info row
@@ -155,15 +182,15 @@ function ContactItem({ icon, label, value, href }) {
         <p className="text-white text-sm font-medium">{value}</p>
       </div>
     </div>
-  )
+  );
 
   if (href) {
     return (
       <a href={href} target="_blank" rel="noopener noreferrer">
         {content}
       </a>
-    )
+    );
   }
 
-  return content
+  return content;
 }

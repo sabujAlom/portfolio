@@ -53,6 +53,13 @@ export default function SplashScreen({ onFinished }) {
         lineHeight: 1,
         marginBottom: "16px"
       }}>
+         <span style={{
+          background: "linear-gradient(135deg, #7c3aed, #a855f7)",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent"
+        }}>
+          Md.
+        </span>
         Sabuj{" "}
         <span style={{
           background: "linear-gradient(135deg, #7c3aed, #a855f7)",

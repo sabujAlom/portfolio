@@ -262,7 +262,7 @@ export default function RouteSwitch({ introStage = 'completed' }) {
       {/* Footer Branding & Copyright */}
       <footer className="w-full px-4 py-8 mt-16 text-center border-t border-purple-900/10">
         <p className="text-gray-600 text-xs">
-          © {new Date().getFullYear()} Neyamul Islam. Built with Next.js & Tailwind CSS 💜
+          © {new Date().getFullYear()} Md. Sabuj Alom. Built with Next.js & Tailwind CSS 💜
         </p>
       </footer>
     </>
