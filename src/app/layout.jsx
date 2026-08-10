@@ -2,8 +2,8 @@ import './globals.css'
 import HomeClient from '../components/HomeClient'
 
 export const metadata = {
-  title: 'Neyamul Islam | MERN Stack Developer',
-  description: 'Portfolio of Neyamul Islam - MERN Stack Developer',
+  title: 'Sabuj Alom | MERN Stack Developer',
+  description: 'Portfolio of Sabuj Alom - MERN Stack Developer',
   icons:{
     icon:'/favicon.png'
   }

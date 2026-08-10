@@ -58,9 +58,9 @@ export default function Hero() {
             </p>
 
             <h1 className="text-5xl md:text-7xl font-black mb-4 leading-tight">
-              <span className="text-white">Neyamul</span>
+              <span className="text-white">Sabuj</span>
               <br />
-              <span className="gradient-text">Islam</span>
+              <span className="gradient-text">Alom</span>
             </h1>
 
             {/* Typewriter role text */}
@@ -103,7 +103,7 @@ export default function Hero() {
             {/* Social links */}
             <div className="flex items-center gap-6 mt-10">
 
-              <a href="https://github.com/neya-mul"
+              <a href="https://github.com/sabujAlom"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors flex items-center gap-2 text-sm"
@@ -111,7 +111,7 @@ export default function Hero() {
                 <GithubIcon /> GitHub
               </a>
 
-              <a href="https://www.linkedin.com/in/neya-mul/"
+              <a href="https://www.linkedin.com/in/sabujalom18"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-2 text-sm"
