@@ -9,7 +9,7 @@ const skills = [
   { name: 'CSS3', level: 89, color: '#3b82f6' },
   { name: 'Tailwind CSS', level: 85, color: '#38bdf8' },
   { name: 'JavaScript-ES6', level: 85, color: '#facc15' },
-  { name: 'TypeScript', level: 45, color: '#3178C6' },
+  { name: 'TypeScript', level: 25, color: '#3178C6' },
   { name: 'React.js', level: 80, color: '#61dafb' },
   { name: 'Next.js', level: 87, color: '#FFC0CA' },
   { name: 'Node.js', level: 55, color: '#68a063' },
