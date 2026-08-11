@@ -1,7 +1,9 @@
 'use client'
 
 import { GraduationCap, Check, ArrowRight, Circle, Globe, Rocket } from 'lucide-react'
+import { CgWebsite } from 'react-icons/cg'
 import { FaUniversity, FaLaptopCode, FaReact, FaJs } from 'react-icons/fa'
+import { GrLanguage } from 'react-icons/gr'
 import { LiaUniversitySolid } from 'react-icons/lia'
 import { SiExpress, SiNextdotjs, SiTailwindcss } from 'react-icons/si'
 
@@ -15,7 +17,7 @@ const educationData = [
         icon: <GraduationCap size={20} />,
         color: '#22c55e',
     },
-    {
+    {                              
         degree: 'Higher Secondary Certificate (HSC)',
         institution: 'Aganagar Degree College, Cumilla',
         year: '2018 - 2020',
@@ -42,6 +44,8 @@ const coursesData = [
     { name: 'Tailwind CSS Full Course', platform: 'Programming Hero', icon: <SiTailwindcss />, year: '2026' },
     { name: 'JavaScript ES6+', platform: 'Programming Hero', icon: <FaJs />, year: '2026' },
     { name: 'Node.js & Express.js', platform: 'Programming Hero', icon: <SiExpress />, year: '2026' },
+    { name: 'Graphics and Web Design', platform: 'National Institute of Youth Development, Savar', icon:<CgWebsite />, year: '2025' },
+    { name: 'English Theraphy FOUNDATION English Course', platform: 'English Theraphy, Dhaka', icon:<GrLanguage />, year: '2024' },
 ]
 
 export default function Education() {
@@ -80,7 +84,7 @@ export default function Education() {
                     {/* Right - Online Courses */}
                     <div className="reveal">
                         <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
-                            <Globe size={20} className="text-purple-400" /> Online Courses
+                            <Globe size={20} className="text-purple-400" /> Completed Courses
                         </h3>
                         <div className="space-y-3">
                             {coursesData.map((course, i) => (

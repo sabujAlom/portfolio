@@ -43,7 +43,7 @@ export default function About() {
           {/* Right - text content */}
           <div className="reveal">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Hi! I'm <span className="text-purple-400">Md. Sabuj Alom</span>
+              Hi! I'm <span className="text-purple-400">Sabuj Alom</span>
             </h3>
             <p className="text-gray-400 leading-relaxed mb-4">
               I'm a MERN Stack developer from Bangladesh with a passion for building
