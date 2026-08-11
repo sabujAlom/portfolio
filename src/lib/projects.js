@@ -3,6 +3,8 @@
 const getProjects = async () => {
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/projects`);
+    console.log("RESPONSE",res)
+
     if (!res.ok) {
       console.error(`Failed to fetch projects: ${res.status} ${res.statusText}`);
       return [];
