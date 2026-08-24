@@ -56,8 +56,7 @@ export default function About() {
               level up my skills.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8 flex items-center gap-2">
-              When I'm not coding, I'm a big anime fan — you might have noticed my
-              Attack on Titan shirt! 
+              When I’m not coding, I’m probably watching anime — it’s my favorite way to relax after solving bugs all day!
             </p>
 
             {/* Info list */}
