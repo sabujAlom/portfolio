@@ -75,9 +75,7 @@ export default function Hero() {
             </div>
 
             <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-lg">
-              A passionate developer from Bangladesh, constantly learning,
-              building, and creating modern web experiences with clean code and
-              thoughtful design.
+              A passionate developer from Bangladesh, constantly learning, building meaningful projects, and creating modern web experiences with clean code and thoughtful design.
             </p>
 
             {/* CTA buttons */}
