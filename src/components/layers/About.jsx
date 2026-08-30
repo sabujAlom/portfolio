@@ -24,7 +24,7 @@ export default function About() {
             <div className="card-hover bg-card rounded-3xl p-8">
               {/* Stats grid */}
               <div className="grid grid-cols-2 gap-6">
-                <StatCard number="24+" label="Repositories" icon={<FiPackage />} />
+                <StatCard number="84+" label="Repositories" icon={<FiPackage />} />
                 <StatCard number="100%" label="Dedication" icon={<FaDumbbell />} />
                 <StatCard number="Next JS" label="Main Stack" icon={<SiNextdotjs />} />
                 <StatCard number="BD" label="Bangladesh" icon={<FaGlobeAsia />} />
