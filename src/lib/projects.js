@@ -10,6 +10,8 @@ const getProjects = async () => {
       return [];
     }
     const projects = await res.json();
+    console.log("PROJECTS DATA:", projects);
+    
     return projects || [];
   } catch (error) {
     console.error("Error fetching projects:", error);
