@@ -95,7 +95,7 @@ export default function Hero() {
               </Link>
 
               <a
-                href="https://drive.google.com/file/d/16jTXzXxHOqabfT7dLPh9dSsS8Lo3d5OY/view?usp=sharing"
+                href="https://drive.google.com/file/d/1TqJTob_aAZhWHm9q8y-F1GKRigJz1iJc/view?usp=sharing"
                 target="blank"
                 className="btn-glow flex items-center gap-2 border border-purple-700 text-purple-400 hover:text-white  px-8 py-3 rounded-full font-semibold transition-all duration-300"
               >
