@@ -64,8 +64,8 @@ export default function Contact() {
               <ContactItem
                 icon={<FaLinkedin />}
                 label="LinkedIn"
-                value="linkedin.com/in/sabujalom18"
-                href="https://www.linkedin.com/in/sabujalom18"
+                value="linkedin.com/in/mdsabujalom18"
+                href="https://www.linkedin.com/in/mdsabujalom18"
               />
 
               <ContactItem
